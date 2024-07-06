@@ -38,6 +38,7 @@ body {
 }
 
 .box .right {
+    position: relative;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -47,7 +48,9 @@ body {
     line-height: 35px;
     text-transform: uppercase;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
+    
 }
 
 
@@ -57,3 +60,4 @@ body {
     left: 0;
 
 }
+
